@@ -1,0 +1,91 @@
+/* Reset default browser styles */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#parked-cars img {
+    max-width: 50%; /* Adjust the width as needed */
+    margin: 20px auto;
+    display: block;
+}
+
+#contact {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-info {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+#contact-details {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+    flex-direction: column; /* Align items vertically */
+    padding: 50px 0;
+}
+
+.contact-image img {
+    max-width: 40%; /* Adjust the width as needed */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .container {
+        padding: 0 10px;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    #parked-cars img {
+        max-width: 25%; /* Adjust the width for smaller screens */
+    }
+}
